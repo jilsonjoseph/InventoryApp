@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">No inventory </string>
+    <!-- Subtitle text for the empty view that prompts the user to add a book -->
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+    <string name="title_activity_editor">EditorActivity</string>
+
+
+    <string name="name">Name</string>
+
+    <string name="price">Price</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="supplier_name">Supplier Name</string>
+
+    <string name="supplier_no">Supplier Ph No</string>
+
+    <string name="button_minus">-</string>
+
+    <string name="button_plus">+</string>
+
+    <string name="button_order">order</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+
+    <!-- Title for the activity to EDIT a book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <string name="title_activity_new">NewActivity</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with saving Book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when book has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_successful">Book updated</string>
+
+    <!-- Toast message in editor when book has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_failed">Error with updating Book</string>
+
+    <string name="quantity_updated">Quantity Updated</string>
+
+    <string name="quantity_updation_failed">Quantity Updation failed</string>
+
+    <string name="out_of_stock">Out of Stock</string>
+
+    <string name="no_negative_quantity">Quantity Cannot be negative</string>
+
+    <string name="enter_valid_supplier_no">Enter a valid supplier No</string>
+
+    <string name="no_empty_fields_allowed">No field should be left blank</string>
+
+    <string name="enter_book_name">Enter Book Name</string>
+
+    <string name="enter_book_price">Enter Book Price</string>
+
+    <string name="enter_supplier_name">Enter Supplier Name</string>
+
+    <string name="enter_supplier_no">Enter Supplier Phone No</string>
+
+</resources>
